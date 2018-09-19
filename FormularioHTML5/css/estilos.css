@@ -1,0 +1,30 @@
+body{
+	color: rgb(0,119,164);
+	width: 400px;
+	font-size: 16px;
+}
+
+
+
+label{
+	display: block;
+}
+
+
+input{
+	border: 1px solid #CC0000;
+}
+
+
+input:valid{
+	background-color: lightyellow;
+	border: 1px solid #3399FF;
+}
+
+input:valid+.invalid{
+	visibility: hidden;
+}
+
+input:invalid+.invalid{
+	visibility: true;
+}
