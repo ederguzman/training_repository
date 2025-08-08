@@ -26,5 +26,6 @@ input:valid+.invalid{
 }
 
 input:invalid+.invalid{
-	visibility: true;
+        visibility: visible;
 }
+
